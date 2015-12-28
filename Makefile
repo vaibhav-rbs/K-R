@@ -15,3 +15,7 @@ printEOF:
 
 char-count:
 	gcc char-count.c -o char-count
+
+
+char-count-for-loop:
+	gcc char-count-for-loop.c -o char-count-for-loop
