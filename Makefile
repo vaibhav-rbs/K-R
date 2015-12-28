@@ -12,3 +12,6 @@ FC:
 
 printEOF:
 	gcc printEOF.c -o printEOF
+
+char-count:
+	gcc char-count.c -o char-count
