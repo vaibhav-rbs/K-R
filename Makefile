@@ -1,3 +1,5 @@
-table:
-	rm c2f-table
-	gcc c2f-table.c -o c2f-table
+c2f-while:
+	gcc c2f-while.c -o c2f-while
+
+c2f-for:
+	gcc c2f-for.c -o c2f-for
