@@ -19,3 +19,6 @@ char-count:
 
 char-count-for-loop:
 	gcc char-count-for-loop.c -o char-count-for-loop
+
+line-count:
+	gcc line-count.c -o line-count
