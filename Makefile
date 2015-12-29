@@ -22,3 +22,6 @@ char-count-for-loop:
 
 line-count:
 	gcc line-count.c -o line-count
+
+wc:
+	gcc wc.c -o wc
