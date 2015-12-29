@@ -25,3 +25,6 @@ line-count:
 
 wc:
 	gcc wc.c -o wc
+
+arrays:
+	gcc arrays.c -o arrays
