@@ -28,3 +28,6 @@ wc:
 
 arrays:
 	gcc arrays.c -o arrays
+
+function:
+	gcc function.c -o function
