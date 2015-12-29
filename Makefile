@@ -1,33 +1,33 @@
 c2f-while:
-	gcc c2f-while.c -o c2f-while
+	gcc -std=c11 c2f-while.c -o c2f-while
 
 c2f-for:
-	gcc c2f-for.c -o c2f-for
+	gcc -std=c11 c2f-for.c -o c2f-for
 
 constants:
-	gcc constants.c -o constants
+	gcc -std=c11 constants.c -o constants
 
 FC:
-	gcc FC.c -o FC
+	gcc -std=c11 FC.c -o FC
 
 printEOF:
-	gcc printEOF.c -o printEOF
+	gcc -std=c11 printEOF.c -o printEOF
 
 char-count:
-	gcc char-count.c -o char-count
+	gcc -std=c11 char-count.c -o char-count
 
 
 char-count-for-loop:
-	gcc char-count-for-loop.c -o char-count-for-loop
+	gcc -std=c11 char-count-for-loop.c -o char-count-for-loop
 
 line-count:
-	gcc line-count.c -o line-count
+	gcc -std=c11 line-count.c -o line-count
 
 wc:
-	gcc wc.c -o wc
+	gcc -std=c11 wc.c -o wc
 
 arrays:
-	gcc arrays.c -o arrays
+	gcc -std=c11 arrays.c -o arrays
 
 function:
-	gcc function.c -o function
+	gcc -std=c11 function.c -o function
