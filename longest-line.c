@@ -19,8 +19,8 @@ int main()
 			copy(longest, line);
 		}
 
-		if (max > 0)
-			printf("%s", longest);
+	if (max > 0)
+		printf("%s", longest);
 	return 0;
 }
 
@@ -29,7 +29,7 @@ int get_line(char s[], int lim)
 	int c,i;
 
 	for(i = 0; i < lim -1 && ((c = getchar()) != EOF && c != '\n'); ++i)
-		/*write all values from console into char array
+		/*write all values from console into char array(remember array is modified in place)
 		'i' gets populated at the first step,
 		just in case you are wondering.
 		*/
@@ -42,7 +42,7 @@ int get_line(char s[], int lim)
 			s[i] = c;
 			++i;
 		}
-	/* adding \0 in the end*/
+	/* adding \0 in the end and modifying the array*/
 	s[i] = '\0';
 	return i;
 	
@@ -55,8 +55,5 @@ void copy(char to[], char from[])
 
 	i = 0;
 	while((to[i] = from[i]) != '\0')
-	{
 		++i;
-	}
-
 }
