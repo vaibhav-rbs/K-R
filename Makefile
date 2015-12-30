@@ -31,3 +31,6 @@ arrays:
 
 function:
 	gcc -std=c11 function.c -o function
+
+character-arrays:
+	gcc -std=c11 character-arrays.c -o character-arrays
