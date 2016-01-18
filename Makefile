@@ -34,3 +34,10 @@ function:
 
 character-arrays:
 	gcc -std=c11 character-arrays.c -o character-arrays
+
+ste_len:
+	gcc -std=c11 ste_len.c -o ste_len
+atoi:
+	gcc -std=c11 atoi.c -o atoi
+squeeze:
+	gcc -std=c11 squeeze.c -o squeeze
