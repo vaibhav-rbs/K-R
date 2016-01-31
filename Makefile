@@ -41,3 +41,5 @@ atoi:
 	gcc -std=c11 atoi.c -o atoi
 squeeze:
 	gcc -std=c11 squeeze.c -o squeeze
+binsearch:
+	gcc -std=c11 binsearch.c -o binsearch
