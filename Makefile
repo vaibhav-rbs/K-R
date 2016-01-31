@@ -43,3 +43,5 @@ squeeze:
 	gcc -std=c11 squeeze.c -o squeeze
 binsearch:
 	gcc -std=c11 binsearch.c -o binsearch
+switch:
+	gcc -std=c11 switch.c -o switch
