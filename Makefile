@@ -45,3 +45,5 @@ binsearch:
 	gcc -std=c11 binsearch.c -o binsearch
 switch:
 	gcc -std=c11 switch.c -o switch
+atoi-general:
+	gcc -std=c11 atoi-general.c -o atoi-general
