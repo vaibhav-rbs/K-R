@@ -47,3 +47,5 @@ switch:
 	gcc -std=c11 switch.c -o switch
 atoi-general:
 	gcc -std=c11 atoi-general.c -o atoi-general
+bubble_sort:
+	gcc -std=c11 bubble_sort.c -o bubble_sort
