@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
+
+void itoa(int n, char s[])
+{
+	
+}
+
 void reverse(char s[])
 {
 	int c, i,j;

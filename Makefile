@@ -42,3 +42,5 @@ insertion_sort:
 	gcc -std=c11 insertion_sort.c  -o insertion_sort
 rev_str:
 	gcc -std=c11 rev_str.c  -o rev_str
+rev_digit:
+	gcc -std=c11 rev_digit.c  -o rev_digit
