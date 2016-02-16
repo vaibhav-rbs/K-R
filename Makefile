@@ -40,3 +40,5 @@ selection_sort:
 	gcc -std=c11 selection_sort.c  -o selection_sort
 insertion_sort:
 	gcc -std=c11 insertion_sort.c  -o insertion_sort
+rev_str:
+	gcc -std=c11 rev_str.c  -o rev_str
