@@ -1,19 +1,19 @@
 #include <stdio.h>
 #define MAXLINE 1000      /* maximum input line length */
 
-int getline(char line[], int max);
-int strindex(char source[], char searchfor[];
+int getline1(char line[], int max);
+int strindex1(char source[], char searchfor[]);
 
 
-char pattern[] = "ould"
+char pattern[] = "ould";
 
-main ()
+int main ()
 {
   char line[MAXLINE];
   int found = 0;
 
-  while (getline(line, MAXLINE) > 0)
-    if (strindex(line, pattern) >= 0)
+  while (getline1(line, MAXLINE) > 0)
+    if (strindex1(line, pattern) >= 0)
     {
       printf("%s", line );
       found ++;
@@ -21,7 +21,7 @@ main ()
     return found;
 }
 
-int getline(char s[], int lim)
+int getline1(char s[], int lim)
 {
     int c, i;
 
@@ -32,6 +32,8 @@ int getline(char s[], int lim)
       /* loop, while lim is > 0 and new
       character is on "EOF" and not "next line"
       */
+    lim = lim - 1;
+    }
       if (c == '\n')
       {
         /*
@@ -44,10 +46,19 @@ int getline(char s[], int lim)
       */
       s[i] = '\0';
 
-    }
+    return i;
 }
 
-int strindex()
+int strindex1(char s[], char t[])
 {
+  int i, j, k;
+  for (i=0; s[i] != 0; i++)
+  {
+    for(j=i , k=0; t[k]!='\0' && t[k]==s[j]; j++, k++)
+      ;
+    if (k>0 && t[k]=='\0')
+      return i;
 
+  }
+  return -1;
 }

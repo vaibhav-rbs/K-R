@@ -44,3 +44,5 @@ rev_str:
 	gcc -std=c11 rev_str.c  -o rev_str
 rev_digit:
 	gcc -std=c11 rev_digit.c  -o rev_digit
+find_pattern:
+	gcc -std=c11 find_pattern.c  -o find_pattern
