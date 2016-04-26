@@ -21,9 +21,30 @@ main ()
     return found;
 }
 
-int getline()
+int getline(char s[], int lim)
 {
+    int c, i;
 
+    i = 0;
+    while(lim > 0 && (c=getchar()) != EOF && c != '\n')
+    {
+      s[i++] = c;
+      /* loop, while lim is > 0 and new
+      character is on "EOF" and not "next line"
+      */
+      if (c == '\n')
+      {
+        /*
+        now if the character is "next line" you add that next line char
+        */
+        s[i++] = c;
+      }
+      /*
+      after you have seen end of the characters add EOF symbol
+      */
+      s[i] = '\0';
+
+    }
 }
 
 int strindex()
