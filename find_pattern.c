@@ -32,7 +32,7 @@ int getline1(char s[], int lim)
       /* loop, while lim is > 0 and new
       character is on "EOF" and not "next line"
       */
-    lim = lim - 1;
+    lim = lim-1;
     }
       if (c == '\n')
       {
