@@ -46,3 +46,5 @@ rev_digit:
 	gcc -std=c11 rev_digit.c  -o rev_digit
 find_pattern:
 	gcc -std=c11 find_pattern.c  -o find_pattern
+unique_char:
+	gcc -std=c11 unique_char.c  -o unique_char
