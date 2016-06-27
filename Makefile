@@ -48,3 +48,5 @@ find_pattern:
 	gcc -std=c11 find_pattern.c  -o find_pattern
 unique_char:
 	gcc -std=c11 unique_char.c  -o unique_char
+atof1:
+	gcc -std=c11 atof1.c  -o atof1
